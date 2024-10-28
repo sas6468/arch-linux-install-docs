@@ -14,7 +14,7 @@ I was stuck here as I made mistakes in partitioning the disk. My mistakes were t
 
 ## Format Partitions
 mkfs.ext4 /dev/sda1  # Format root partition with ext4 filesystem
-mkdir /mnt/boot  # Create a mount point for the boot partition
+mkdir /mnt  # Create a mount point for the root partition
 mount /dev/sda1 /mnt  # Mount the root partition
 swapon /dev/sda2
 
